@@ -1,0 +1,28 @@
+{
+  "name": "babil",
+  "version": "0.0.1",
+  "description": "Babil transpiles all your dependencies without needing grunt or gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsbites/babil.git"
+  },
+  "keywords": [
+    "transpile",
+    "babil",
+    "babel",
+    "ecmascript",
+    "es.next",
+    "es2015",
+    "javascript"
+  ],
+  "author": "Volkan Ozcelik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsbites/babil/issues"
+  },
+  "homepage": "https://github.com/jsbites/babil#readme"
+}
