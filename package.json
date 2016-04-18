@@ -1,6 +1,6 @@
 {
   "name": "babil",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Babil transpiles all your dependencies without needing grunt or gulp.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/jsbites/babil/issues"
   },
-  "homepage": "https://github.com/jsbites/babil#readme"
+  "homepage": "https://github.com/jsbites/babil#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.5"
+  }
 }
