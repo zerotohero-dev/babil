@@ -1,6 +1,11 @@
-The MIT License (MIT)
+```
+____    __    ____  ____  __   
+(  _ \  /__\  (  _ \(_  _)(  )  
+) _ < /(__)\  ) _ < _)(_  )(__ 
+(____/(__)(__)(____/(____)(____)
+```
 
-Copyright (c) 2016 Byte-Sized JavaScript
+Copyright © Volkan Özçelik <me@volkan.io>, and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
