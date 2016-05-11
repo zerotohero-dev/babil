@@ -42,7 +42,7 @@ babil.initialize( {
 babil.transpile();
 ```
 
-This module is in its early alpha stage; so feel free to [add your comments and suggestions by creating an issue][ticket]
+This module is in its early alpha stage; so feel free to [add your comments and suggestions by creating an issue][ticket].
 
 ## About This Repository
 
