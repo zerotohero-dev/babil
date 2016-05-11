@@ -11,7 +11,7 @@
 
 ## Requirements
 
-I haven’t checked; though I’m sure you’ll need a recent version of Node.JS (5.x.x) because it’s using modern JavaScript syntax.
+I haven’t checked; though I’m sure you’ll need a recent version of Node.JS (> 5.x.x) because it’s using modern JavaScript syntax.
 
 Feel free to create a PR to make it backwards-compatible.
 
