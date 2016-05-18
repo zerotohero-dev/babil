@@ -29,16 +29,14 @@ Then use it in your scripts:
 // PROJECT_ROOT/bin/transpile.js
 
 const babil = require( 'babil' );
-const join = require( 'path' ).join;
+const rootPath = require( 'path' ).join( __dirname, '..');
 
-babil.initialize( {
-    srcPath: join( __dirname, 'lib' ),
-    rootPath: join( __dirname, '..',
-    babelPath: join( __dirname, '../node_modules/babel-cli/bin/babel.js' )
-} );
+babil.initialize( { rootPath } );
 
-// Transpiles all JS files inside `PROJECT_ROOT/lib`,
-// into `PROJECT_ROOT/release` and adds source maps too.
+// Assuming that `babel-cli` is “locally” installed 
+// in `PROJECT_ROOT/node_modules` the following call transpiles 
+// all JS files inside `PROJECT_ROOT/lib`,
+// into `PROJECT_ROOT/release`. It adds source maps to help debugging, too.
 babil.transpile();
 ```
 
