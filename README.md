@@ -15,7 +15,7 @@ I haven’t checked; though I’m sure you’ll need a recent version of Node.JS
 
 Feel free to create a PR to make it backwards-compatible.
 
-## Usage Example
+## Usage Example  
 
 First install `babil` via `npm`:
 
