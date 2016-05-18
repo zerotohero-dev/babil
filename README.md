@@ -26,17 +26,19 @@ npm install babil --save-dev
 Then use it in your scripts:
 
 ```
-// PROJECT_ROOT/bin/transpile.js
+// file: PROJECT_ROOT/bin/transpile.js
 
-const babil = require( 'babil' );
-const rootPath = require( 'path' ).join( __dirname, '..');
+var babil = require( 'babil' );
+var ROOT_PATH = require( 'path' ).join( __dirname, '..' );
 
-babil.initialize( { rootPath } );
+babil.initialize( { rootPath: ROOT_PATH } );
 
-// Assuming that `babel-cli` is “locally” installed 
-// in `PROJECT_ROOT/node_modules` the following call transpiles 
-// all JS files inside `PROJECT_ROOT/lib`,
-// into `PROJECT_ROOT/release`. It adds source maps to help debugging, too.
+//
+// Assuming that `babel-cli` is “locally” installed in `PROJECT_ROOT/node_modules`
+// the following call transpiles all JS files inside `PROJECT_ROOT/lib`,
+// into `PROJECT_ROOT/release`. 
+// It adds source maps to help debugging, too.
+//
 babil.transpile();
 ```
 
