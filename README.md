@@ -29,9 +29,8 @@ Then use it in your scripts:
 // file: PROJECT_ROOT/bin/transpile.js
 
 var babil = require( 'babil' );
+var transpile = babil.transpile;
 var ROOT_PATH = require( 'path' ).join( __dirname, '..' );
-
-babil.initialize( { rootPath: ROOT_PATH } );
 
 //
 // Assuming that `babel-cli` is “locally” installed in `PROJECT_ROOT/node_modules`
@@ -39,7 +38,9 @@ babil.initialize( { rootPath: ROOT_PATH } );
 // into `PROJECT_ROOT/release`. 
 // It adds source maps to help debugging, too.
 //
-babil.transpile();
+babil
+    .initialize( { rootPath: ROOT_PATH } )
+    .then( transpile );
 ```
 
 This module is in its early alpha stage; so feel free to [add your comments and suggestions by creating an issue][ticket].
