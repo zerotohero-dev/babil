@@ -1,6 +1,6 @@
 {
   "name": "babil",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Babil transpiles all your dependencies without needing grunt or gulp.",
   "main": "index.js",
   "scripts": {
