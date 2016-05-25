@@ -26,6 +26,8 @@ npm install babil --save-dev
 Then use it in your scripts:
 
 ```
+#!/usr/bin/env node
+
 // file: PROJECT_ROOT/bin/transpile.js
 
 var babil = require( 'babil' );
