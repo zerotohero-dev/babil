@@ -9,6 +9,31 @@
 
 `babil` is a helper module that transpiles your dependencies.
 
+## Preamble
+
+Currently you can do what `babil` can do [with a simple `babel` command when you set things up correctly](https://github.com/jsbites/babil/issues/30). So this is more like an **experimental** projects that wraps around `babel`.
+
+So putting something like…
+
+```
+  "scripts": {
+    …
+    "build": "babel lib --source-maps -d release"
+  },
+```
+
+in your `package.json` is a leaner option than using `babil`.
+
+That said,
+
+```
+babil.initialize().then(babil.transpile)
+```
+
+does not look that bad either.
+
+If you have any recommendations and thoughts, [feel free to create an issue](https://github.com/jsbites/babil/issues/new).
+
 ## Requirements
 
 I haven’t checked; though I’m sure you’ll need a recent version of Node.JS (> 5.x.x) because it’s using modern JavaScript syntax.
