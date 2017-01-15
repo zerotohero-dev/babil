@@ -5,7 +5,7 @@
 (____/(__)(__)(____/(____)(____)
 ```
 
-## **babil** (*v0.6.0*)
+## **babil** (*v0.5.0*)
 
 * Updated the README.
 * Added an `.eslintrc` and linted `./lib/index.js` accordingly.
