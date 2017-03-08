@@ -1,3 +1,17 @@
+## Unmaintained Software
+
+This was just an **experimental** project, and there’s no need to reinvent `babel` and/or create a wrapper around `babel`.
+
+I’m not planning to contribute to this project for a while.
+
+If you are interested in being a contributor, [please let me know](mailto:volkan.io).
+
+Thanks,
+
+Volkan.
+
+----
+
 ```
  ____    __    ____  ____  __
 (  _ \  /__\  (  _ \(_  _)(  )
@@ -109,11 +123,11 @@ If you want to report a bug; or share a comment or suggestion, [file an issue](h
 ## Contact Information
 
 * **Project Maintainer**: [Volkan Özçelik](https://volkan.io/)
-* **Project Website**: <https://bytesized.tv>
+* **Project Website**: [bytesized.tv](https://bytesized.tv/)
 
 ## License
 
-MIT-licensed. — See [the license file](LICENSE.md) for details.
+MIT-licensed. — [See the license file for details](LICENSE.md).
 
 ## Code of Conduct
 
@@ -121,5 +135,5 @@ We are committed to making participation in this project a harassment-free exper
 
 [See the code of conduct for details](CODE_OF_CONDUCT.md).
 
-[vidcast]: https://www.youtube.com/channel/UC8OLZSlFO8cwRo9M30v-TkA
+[vidcast]: https://bytesized.tv/
 [ticket]: https://github.com/jsbites/babil/issues/new
