@@ -1,6 +1,6 @@
 ## Unmaintained Software
 
-This was just an **experimental** project, and there’s no need to reinvent [`babel`](https://babel.io) and/or create a wrapper around `babel`.
+This was just an **experimental** project, and there’s no need to reinvent [`babel`](https://babeljs.io) and/or create a wrapper around `babel`.
 
 I’m not planning to contribute to this project for a while.
 
