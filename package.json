@@ -1,6 +1,6 @@
 {
   "name": "babil",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Babil transpiles all your dependencies without needing grunt or gulp.",
   "main": "index.js",
   "scripts": {
@@ -13,13 +13,14 @@
     "babil",
     "byte-sized javascript",
     "byte-sized",
-    "bytesized-javascript",
     "bytesized.tv",
     "demos",
     "ecmascript",
+    "education",
     "es.next",
     "es2015",
     "javascript",
+    "learning",
     "podcast",
     "screencast",
     "trainings",
