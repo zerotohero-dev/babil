@@ -49,6 +49,7 @@ node_modules
 # IDE
 .idea
 .c9
+.vscode
 
 # Mac
 .DS_Store
