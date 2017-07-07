@@ -1,6 +1,6 @@
 {
   "name": "babil",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Babil transpiles all your dependencies without needing grunt or gulp.",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,18 @@
   },
   "repository": "git+https://github.com/jsbites/babil.git",
   "keywords": [
-    "transpile",
-    "babil",
     "babel",
+    "babil",
+    "byte-sized javascript",
+    "byte-sized",
+    "bytesized.tv",
     "ecmascript",
     "es.next",
     "es2015",
-    "javascript"
+    "javascript",
+    "podcast",
+    "screencast",
+    "transpile"
   ],
   "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
   "license": "MIT",
